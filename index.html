@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets meal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="">
+                <img src="./logo.jpeg" height="30px" width="100px" alt="logo">
+            </a>
+            <div class="nav-items">
+                <div class="geeting-container">
+                    <p class="greeting-text">Morning Ajit</p>
+                    <p class="welcome-text">Welcome Back!</p>
+                </div>
+                <div class="search-box">
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" placeholder="search" id="search">
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main id="app">
+        <h1>Top Restaurant in your Area</h1>
+        <section class="filter-sort-container">
+            <select name="Sort by" id="sort">
+                <option value="rating">Sort by Rating</option>
+                <option value="eta">Sort by Eta</option>
+            </select>
+            <select name="Filter by" id="filter">
+                <option value="all">All</option>
+                <option value="american">American</option>
+                <option value="mexican">Mexican</option>
+                <option value="indian">Indian</option>
+                <option value="chinese">Chinese</option>
+                <option value="japaniese">Japaniese</option>
+            </select>
+        </section>
+        <section class="restaurant-list" id="restaurant-list">
+           
+            <div class="restaurant-details">
+                <div class="res-img">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/noc7ieivirqxtpujhsgl"
+                        alt="UBQ by Barbeque Nation">
+                </div>
+                <div class="res-name">
+                    <h2>E1 Pirata</h2>
+                    <p>Firenze</p>
+                </div>
+                <div class="res-details">
+                    <p class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        4.5
+                    </p>
+                    <p class="eta">20mins</p>
+                </div>
+                <div class="tags">
+                    American,Italian,French
+                </div>
+            </div>
+            <div class="restaurant-details">
+                <div class="res-img">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/noc7ieivirqxtpujhsgl"
+                        alt="UBQ by Barbeque Nation">
+                </div>
+                <div class="res-name">
+                    <h2>E1 Pirata</h2>
+                    <p>Firenze</p>
+                </div>
+                <div class="res-details">
+                    <p class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        4.5
+                    </p>
+                    <p class="eta">20mins</p>
+                </div>
+                <div class="tags">
+                    American,Italian,French
+                </div>
+            </div>
+            <div class="restaurant-details">
+                <div class="res-img">
+                    <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/noc7ieivirqxtpujhsgl"
+                        alt="UBQ by Barbeque Nation">
+                </div>
+                <div class="res-name">
+                    <h2>E1 Pirata</h2>
+                    <p>Firenze</p>
+                </div>
+                <div class="res-details">
+                    <p class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        4.5
+                    </p>
+                    <p class="eta">20mins</p>
+                </div>
+                <div class="tags">
+                    American,Italian,French
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/0f1d9446b2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
